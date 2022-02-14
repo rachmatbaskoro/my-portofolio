@@ -1,0 +1,24 @@
+nav {
+  background-color: gray;
+}
+
+.jumbotron {
+  padding: 5rem 2rem 2rem 2rem;
+  background-color: lightgray;
+}
+
+footer {
+  background-color: gray;
+}
+
+#projects {
+  background-color: lightgray;
+}
+
+.bi-hearts {
+  color: red;
+}
+
+section {
+  padding-top: 5rem;
+}
