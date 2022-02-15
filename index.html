@@ -148,6 +148,56 @@
           </div>
         </div>
       </div>
+
+      <!-- Character -->
+      <section id="character">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>Character</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="character-box">
+                <h4 class="character-name">Uzumaki Naruto</h4>
+                <img src="img/character/1.png" alt="Uzumaki Naruto" class="character-img" />
+                <a href="#" class="btn btn-light character-profile-btn">Profile</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="character-box">
+                <h4 class="character-name">Saitama</h4>
+                <img src="img/character/2.png" alt="Saitama" class="character-img" />
+                <a href="#" class="btn btn-light character-profile-btn">Profile</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="character-box">
+                <h4 class="character-name">Kamado Tajiro</h4>
+                <img src="img/character/3.png" alt="Kamado Tanjiro" class="character-img" />
+                <a href="#" class="btn btn-light character-profile-btn">Profile</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="character-box">
+                <h4 class="character-name">Asta</h4>
+                <img src="img/character/4.png" alt="Asta" class="character-img" />
+                <a href="#" class="btn btn-light character-profile-btn">Profile</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="character-box">
+                <h4 class="character-name">Monkey D. Luffy</h4>
+                <img src="img/character/5.png" alt="Monkey D. Luffy" class="character-img" />
+                <a href="#" class="btn btn-light character-profile-btn">Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Akhir character -->
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -266,6 +316,17 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <!-- Tilt JavaScript -->
+    <script type="text/javascript" src="asset/js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".character-box"), {
+        max: 25,
+        speed: 1000,
+        glare: true,
+        "max-glare": 0.8,
       });
     </script>
   </body>
